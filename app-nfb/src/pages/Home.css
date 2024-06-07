@@ -1,0 +1,53 @@
+h1 {
+        margin-top: 100px ; 
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 40px;
+        text-align: center;
+        }
+      
+h3 {
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 20px;
+          text-align: center;
+      }
+
+h2 {
+        color:dimgrey;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 28px;
+        text-align: center;
+        font-style: italic;
+    }     
+      
+p {
+          color: black;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 17px;
+          text-align: center;
+                    }
+
+.calm-score-home {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 35px;
+    color: darkslategray;
+    font-weight: 500;
+    border: 20px solid rgb(113, 211, 211);
+    border-radius: 50%;
+    width: 175px;
+    height: 175px;
+    margin-left: 20px;
+  }
+
+.main-container-home{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    height: 200px;
+    margin-bottom: 100px;
+    margin-right: 20px;
+}
+

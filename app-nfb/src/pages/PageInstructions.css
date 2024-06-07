@@ -1,0 +1,105 @@
+h1 {
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 10px;
+  text-align:left;
+  margin-right: 20px;
+  }
+
+p {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: left;
+    margin-right: 20px;
+              }
+      
+/* Container for image and text */
+.content-container {
+  display: flex;
+}
+
+/* Style for image container */
+.image-container {
+  flex: 1;
+  margin-right: 20px; /* Adjust as needed */
+}
+
+/* Style for image container */
+.image-container {
+  display: flex; /* Make the image container a flex container */
+  flex-direction: column; /* Arrange items vertically */
+  justify-content: flex-start; /* Align items to the start vertically */
+  align-items: flex-start; /* Align items to the start horizontally */
+  margin-left: 5%; /* Adjust as needed */
+}
+
+
+/* Style for the image */
+.image-container img {
+  max-width: 550px /* Make sure the image doesn't exceed the container width */ /* Set a maximum height for the image */
+}
+
+.button-instr {
+  align-items: center;
+  justify-content:center;
+  display: flex;
+}
+
+
+.card-accordionbtn1 {
+  background: rgb(113, 211, 134);
+  color: #000c14;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: inherit;
+  margin-top: 16px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  margin-right: 350px;
+}
+
+.card-accordionbtn2 {
+  background: rgb(113, 211, 134);
+  color: #000c14;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: inherit;
+  margin-top: 16px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  margin-right: 350px;
+}
+
+.card-accordionbtn3 {
+  background: rgb(113, 211, 134);
+  color: #000c14;
+  border: none;
+  padding: 8px 20px;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: inherit;
+  margin-top: 16px;
+  cursor: pointer;
+  justify-content: center;
+  text-align: center;
+  margin-right: 350px;
+}
+
+.card-btn-instr{
+  background: rgb(113, 211, 134);
+  color: #000c14;
+  border: none;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: inherit;
+  justify-content: center;
+  text-align: center;
+  width: 250px;
+}
